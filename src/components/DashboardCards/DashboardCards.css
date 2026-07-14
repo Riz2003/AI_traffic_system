@@ -1,0 +1,23 @@
+.cards-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 5px 12px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#666;
+}
+
+.card h1{
+    color:#2563eb;
+    font-size:34px;
+}

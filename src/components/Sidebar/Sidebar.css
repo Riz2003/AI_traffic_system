@@ -1,0 +1,61 @@
+.sidebar{
+
+    width:260px;
+
+    height:100vh;
+
+    background:#0f172a;
+
+    color:white;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    padding-top:20px;
+
+}
+
+.logo{
+
+    text-align:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#38bdf8;
+
+    margin-bottom:40px;
+
+}
+
+.menu{
+
+    list-style:none;
+
+}
+
+.menu li{
+
+    padding:18px 25px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.menu li:hover{
+
+    background:#1e293b;
+
+    color:#38bdf8;
+
+    padding-left:35px;
+
+}
